@@ -1,5 +1,5 @@
 node {
-  stage('Download code from git repository') {
+  stage('Download code from git repositorys') {
   git branch: 'dev', url: 'https://github.com/clouddevopseng/2pmproj.git'
   }
   stage('Convert into Artifacts') {
